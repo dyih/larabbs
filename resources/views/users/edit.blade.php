@@ -35,7 +35,7 @@
             <div class="mb-4">
               <label for="" class="avatar-label">用户头像</label>
               <br>
-              <input type="file" name="avatar" class="form-control-file">
+              <input type="file" name="avatar" class="form-control-file mb-1">
 
               @if($user->avatar)
                 <br>
